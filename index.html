@@ -8,12 +8,18 @@
 
   <body>
     <div id="title"></div>
-    <form>
-      <label for="name">Name</label>
-      <input type="text" id="name" placeholder="Engineering?" />
-      <input type="submit" />
-    </form>
-    <div class="container"></div>
+    <input type="text" id="array" placeholder="6,2,5,7,3,9...." />
+    <button class="submit-button">Submit</button>
+    <div class="card-container">
+      <div class="parent">
+        <div class="card">
+          <h3>Welcome to Insertion Sort!</h3>
+          <p>Input some numbers in the box above to get sorting!</p>
+          <p>Be sure to separate by commas.</p>
+        </div>
+        <div class="wrapper"></div>
+      </div>
+    </div>
     <!--
     Where is this public/bundle.js file coming from?
     It comes from our trusty friend, webpack.
