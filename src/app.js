@@ -9,7 +9,7 @@ const Sort = require("./Sort");
 // A link to our styles!
 require("./index.css");
 
-const sort = new Sort();
+const sort = new Sort([2, 8, 3, 7, 0, 9, 1, 4, 6]);
 sort.sort();
 
 function createCheesyTitle(slogan) {
